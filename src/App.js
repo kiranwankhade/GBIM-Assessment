@@ -11,6 +11,7 @@ import CreativeProcess from './Components/CreativeProcess';
 import AIPowered from './Components/AIPowered';
 import FeaturedWork from './Components/FeaturedWork';
 import QuestionsAnswers from './Components/QuestionsAnswers';
+import Contact from './Components/Contact';
 
 function App() {
   const disclosure = useDisclosure();
@@ -25,6 +26,7 @@ function App() {
        <AIPowered/>
        <FeaturedWork/>
        <QuestionsAnswers/>
+       <Contact/>
        <Footer/>
     </>
   );

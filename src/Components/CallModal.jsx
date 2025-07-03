@@ -3,33 +3,42 @@ import {
   Modal,
   ModalOverlay,
   ModalContent,
-  ModalHeader,
-  ModalCloseButton,
   ModalBody,
   ModalFooter,
   Button,
   Text,
-  useDisclosure
+  Box,
+  Flex,
+  Input,
+  FormLabel,
+  Image
 } from '@chakra-ui/react';
+import { FaTimes } from 'react-icons/fa';
+import bgImage from '../images/Modal.png';
 
 const CallModal = ({ isOpen, onClose }) => {
   return (
-    <Modal isOpen={isOpen} onClose={onClose} isCentered>
-      <ModalOverlay />
-      <ModalContent>
-        <ModalHeader>Schedule A Call</ModalHeader>
-        <ModalCloseButton />
-        <ModalBody>
-          <Text>Please fill in your details and we will contact you shortly.</Text>
-          {/* Add form fields here if needed */}
-        </ModalBody>
-
-        <ModalFooter>
-          <Button colorScheme="red" mr={3} onClick={onClose}>Close</Button>
-          <Button colorScheme="blue">Submit</Button>
-        </ModalFooter>
-      </ModalContent>
-    </Modal>
+    <Modal
+    isOpen={isOpen}
+    onClose={onClose}
+    isCentered
+    closeOnOverlayClick
+  >
+    {/* semi‑opaque black overlay */}
+    <ModalOverlay bg="blackAlpha.600" />
+    <ModalContent maxW="600px" bg="transparent" boxShadow="none">
+      <ModalBody p={0}>
+        <Image
+          src={bgImage}
+          alt="Modal Content"
+          w="100%"
+          h="auto"
+          cursor="pointer"
+          onClick={onClose}
+        />
+      </ModalBody>
+    </ModalContent>
+  </Modal>
   );
 };
 
