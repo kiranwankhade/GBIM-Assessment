@@ -3,7 +3,7 @@
 This is the code repository for the **GBIM Assignment Website**, created as part of the UI design and development assessment.
 
 > 📅 Last updated: July 03, 2025  
-> 🔗 [Live Project Demo](https://kiranwankhade.github.io/GBIM-Assessment)
+> 🔗 [Live Project Demo]((https://gbim-assesment-five.vercel.app/))
 
 ---
 
