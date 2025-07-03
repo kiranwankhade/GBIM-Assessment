@@ -24,12 +24,12 @@ const AIPowered = () => {
   const showcaseImages = [ai1, ai2, ai3, ai4, ai5, ai6, ai7];
 
    // Curve offsets: top margin
-   const curveTopOffsets = [50, 30, 40, 50, 40, 30, 10];
+   const curveTopOffsets = [50, 20, 40, 50, 40, 30, 10];
 
    const curveBottomOffsets = [130, 160, 170, 180, 170, 160,130];
 
    // Height curve (reverse arch — outer images tallest)
-   const heightCurve = [300, 260, 250, 260, 250, 260, 300];
+   const heightCurve = [300, 260, 240, 220, 240, 260, 300];
 
   return (
     <Box
@@ -130,7 +130,7 @@ const AIPowered = () => {
                 alt={`Design ${idx + 1}`}
                 w="100%"
                 h="100%"
-                objectFit="cover"
+                objectFit="fill"
               />
             </Box>
           </motion.div>
