@@ -43,11 +43,9 @@ This is the code repository for the **GBIM Assignment Website**, created as part
 
 ## 📸 Screenshots
 
-| Hero Section | Featured Work | Carousel |
+| Hero Section | Carousel | OFFER SECTION  |
 |--------------|----------------|----------|
-| ![](src/assets/scr![gbimSS1](https://github.com/user-attachments/assets/b4264440-0557-44c4-a3f1-39d511c485ac)
-eenshot1.png) | ![gbimSS2](https://github.com/user-attachments/assets/ba31c9ac-3472-495d-9d01-9ed1d27b1a84)
-  |![gbimSS3](https://github.com/user-attachments/assets/fb648cfe-dc0f-4e81-add2-510b50ee60d9)
+| ![gbimSS1](https://github.com/user-attachments/assets/b4264440-0557-44c4-a3f1-39d511c485ac) | ![gbimSS2](https://github.com/user-attachments/assets/ba31c9ac-3472-495d-9d01-9ed1d27b1a84) |![gbimSS3](https://github.com/user-attachments/assets/fb648cfe-dc0f-4e81-add2-510b50ee60d9)
 
 
 > Replace the `screenshotX.png` files with actual screenshots if needed.
